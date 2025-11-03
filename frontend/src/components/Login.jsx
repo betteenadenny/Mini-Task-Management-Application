@@ -1,6 +1,7 @@
 import axios from "axios";
 import { Link,useNavigate } from "react-router-dom";
 import { useState } from "react";
+import Navbar from "./Navbar";
 
 export default function Login() {
     const [email,setEmail] = useState('');
@@ -42,6 +43,7 @@ export default function Login() {
     }
   return (
     <>
+    <Navbar/>
     <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
         <img
