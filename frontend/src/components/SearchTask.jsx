@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 export default function SearchTask({ tasks, onSearchResult, onShowAll }) {
   const [query, setQuery] = useState("");
   const [status,setStatus] = useState("All");
+  const [deadline,setDeadline] = useState('');
 
   useEffect(() => {
     let filtered = tasks;
@@ -19,9 +20,17 @@ export default function SearchTask({ tasks, onSearchResult, onShowAll }) {
         task.status === status
       );
     }
+
+    if(deadline){
+      const selectedDate = new Date(deadline);
+      filtered = filtered.filter(task => {
+        const taskDate = new Date(task.deadline);
+        return taskDate <= selectedDate;
+      })
+    }
     
     onSearchResult(filtered);
-},[query,status,tasks])
+},[query,status,deadline,tasks])
 
   return (
     <div className="flex items-center gap-2">
@@ -44,11 +53,19 @@ export default function SearchTask({ tasks, onSearchResult, onShowAll }) {
         <option value="done">Completed</option>
       </select>
 
+      <input
+        type="date"
+        value={deadline}
+        onChange={(e) => setDeadline(e.target.value)}
+        className="border px-3 py-2 rounded"
+      />
+
       <button
         onClick={() => {
           setQuery("");
-          onShowAll();
           setStatus('All');
+          setDeadline('');
+          onShowAll();
         }}
         className="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded"
       >
