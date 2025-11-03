@@ -120,7 +120,7 @@ Task Listing page
 Validation checking on adding a new task
 <img width="618" height="978" alt="Validation checking" src="https://github.com/user-attachments/assets/461d1928-0dc3-4846-9128-6b3bf2f647f3" />
 
-### react project Demo ScreenShots
+### React project Demo ScreenShots
 Login page
 <img width="1919" height="966" alt="Login (2)" src="https://github.com/user-attachments/assets/196c2c14-5c93-44ea-8ef1-9f01c6ea85c7" />
 
@@ -133,4 +133,11 @@ Task Listing with pagination<img width="1919" height="896" alt="Screenshot 2025-
 
 Validation checking
 <img width="1918" height="1020" alt="Screenshot 2025-11-03 214002" src="https://github.com/user-attachments/assets/98991261-cb5c-463a-952a-04394f8928ab" />
+
+Filter task
+https://github.com/user-attachments/assets/e32ec2f8-0a66-4e27-943e-564e740e3c00
+
+
+
+
 
