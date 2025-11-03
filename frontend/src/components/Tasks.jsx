@@ -8,8 +8,10 @@ import SearchTask from "./SearchTask";
 
 export default function Tasks() {
   const [tasks, setTasks] = useState([]);
-  const [filterdTasks,setFilteredTask] = useState([]);
+  const [filteredTasks,setFilteredTask] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [currentPage,setCurrentPage] = useState(1);
+  const tasksPerPage = 3;
   const navigate = useNavigate();
 
   const loggedInuser = JSON.parse(localStorage.getItem("loggedInuser") || "{}");
@@ -88,6 +90,18 @@ export default function Tasks() {
       }
     }
   }
+
+  const totalPages = Math.ceil(filteredTasks.length / tasksPerPage);
+  const startIndex = (currentPage - 1) * tasksPerPage;
+  const currentTasks  = filteredTasks.slice(startIndex,startIndex + tasksPerPage);
+
+  const handleNext = () => {
+    if(currentPage < totalPages) setCurrentPage(prev => prev + 1);
+  }
+
+  const handlePrev = () => {
+    if(currentPage > 1) setCurrentPage(prev => prev - 1);
+  }
   return (
     <>
       <Navbar name={loggedInuser.name} onSignOut={() => removeUser()} />
@@ -110,11 +124,37 @@ export default function Tasks() {
 
         <ul className="mt-4 space-y-3">
           <ListTask 
-            tasks={filterdTasks} 
+            tasks={currentTasks} 
             onEdit={handleEdit} 
             onDelete={handleDelete} 
           />
         </ul>
+
+        {filteredTasks.length > tasksPerPage && (
+          <div className="flex justify-center items-center mt-6 space-x-4">
+            <button
+              onClick={handlePrev}
+              disabled={currentPage === 1}
+              className={`px-4 py-2 rounded ${
+                currentPage === 1 ? "bg-gray-300" : "bg-blue-500 text-white hover:bg-blue-600"
+              }`}
+            >
+              Prev
+            </button>
+            <span className="text-gray-700 font-medium">
+              Page {currentPage} of {totalPages}
+            </span>
+            <button
+              onClick={handleNext}
+              disabled={currentPage === totalPages}
+              className={`px-4 py-2 rounded ${
+                currentPage === totalPages ? "bg-gray-300" : "bg-blue-500 text-white hover:bg-blue-600"
+              }`}
+            >
+              Next
+            </button>
+          </div>
+        )}
 
         {isModalOpen && (
           <CreateTask
