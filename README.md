@@ -34,6 +34,18 @@ mini-task-management-app/
   
 ## ⚙️ Backend Setup (Node.js + Express)
 
+## 🧩 Prerequisites
+
+Before setting up the project, make sure you have the following installed on your system:
+
+| Tool |
+|------|
+| Node.js (v18 or later) |
+| npm (v9 or later) |
+| Express |
+| MongoDB  |
+| Visual Studio Code (or any preferred IDE) |
+
 ### 1️⃣ Navigate to the backend folder
 ### 2️⃣ Install dependencies
 ```
@@ -133,20 +145,21 @@ flutter run -d chrome
 flutter run -d emulator-5554
 ```
 
-### Flutter App Demo ScreenShots
+### Flutter App Demo 
 
 https://github.com/user-attachments/assets/8cf61c4f-ab00-44c9-8e7f-1737ae36bb22
 
-
 ### React project Demo 
-
-
 
 https://github.com/user-attachments/assets/d9165371-cef8-4f16-b1b8-fd6eb263d225
 
+Filtering task and pagination 
 
-Filter task
-https://github.com/user-attachments/assets/e32ec2f8-0a66-4e27-943e-564e740e3c00
+https://github.com/user-attachments/assets/973b05e9-3d71-4305-be69-afd0b3a3d5bf
+
+
+
+
 
 
 
