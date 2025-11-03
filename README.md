@@ -60,6 +60,20 @@ The API will run at:
 
 ## ⚙️ Frontend Setup (React + TailwindCSS)
 
+## 🧩 Prerequisites
+
+Before setting up the project, make sure you have the following installed on your system:
+
+| Tool |
+|------|
+| Node.js (v18 or later) |
+| npm (v9 or later) |
+| Express |
+| React (via Create React App) |
+| MongoDB  |
+| Visual Studio Code (or any preferred IDE) |
+
+
 ### 1️⃣ Navigate to the frontend folder
 
 2️⃣ Install dependencies
@@ -77,6 +91,19 @@ The API will run at:
 ---
 
 ## ⚙️ Flutter App Setup 
+
+### 🧩 Prerequisites
+
+Before running the Flutter app, make sure you have the following installed:
+
+| Tool |
+|------|
+| Flutter SDK 
+| Dart SDK |
+|  VS Code |
+| Android SDK & Emulator |
+| Node.js + npm |
+
 
 ### 1️⃣ Navigate to the mobile folde
 ### 2️⃣ Get all dependencies
@@ -108,31 +135,15 @@ flutter run -d emulator-5554
 
 ### Flutter App Demo ScreenShots
 
-Login Page
-<img width="624" height="990" alt="Login" src="https://github.com/user-attachments/assets/a326be91-2626-45d4-95f7-2796aa3a3fe8" />
+https://github.com/user-attachments/assets/8cf61c4f-ab00-44c9-8e7f-1737ae36bb22
 
-Signup page
-<img width="618" height="984" alt="Signup" src="https://github.com/user-attachments/assets/69db52d6-453e-49c6-8c4d-5c676d7fb45c" />
 
-Task Listing page
-<img width="624" height="990" alt="Task Listing" src="https://github.com/user-attachments/assets/629bfdf2-2da6-498f-b2ce-07b111d02e27" />
+### React project Demo 
 
-Validation checking on adding a new task
-<img width="618" height="978" alt="Validation checking" src="https://github.com/user-attachments/assets/461d1928-0dc3-4846-9128-6b3bf2f647f3" />
 
-### React project Demo ScreenShots
-Login page
-<img width="1919" height="966" alt="Login (2)" src="https://github.com/user-attachments/assets/196c2c14-5c93-44ea-8ef1-9f01c6ea85c7" />
 
-Signup page
-<img width="1898" height="965" alt="Screenshot 2025-11-03 213634" src="https://github.com/user-attachments/assets/21de61a6-2759-4475-924d-c950e0d4f1bd" />
+https://github.com/user-attachments/assets/d9165371-cef8-4f16-b1b8-fd6eb263d225
 
-Task Listing with pagination<img width="1919" height="896" alt="Screenshot 2025-11-03 213709" src="https://github.com/user-attachments/assets/8518df34-f0a8-4a63-8bee-cb65604b3845" />
-
-<img width="1910" height="967" alt="Screenshot 2025-11-03 213727" src="https://github.com/user-attachments/assets/991c932c-6259-4f2d-9489-a72d6c5ae9a8" />
-
-Validation checking
-<img width="1918" height="1020" alt="Screenshot 2025-11-03 214002" src="https://github.com/user-attachments/assets/98991261-cb5c-463a-952a-04394f8928ab" />
 
 Filter task
 https://github.com/user-attachments/assets/e32ec2f8-0a66-4e27-943e-564e740e3c00
