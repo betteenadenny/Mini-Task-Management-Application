@@ -12,7 +12,6 @@ class User {
   // Factory constructor to create a User from JSON
   factory User.fromJson(Map<String, dynamic> json) {
     return User(
-      // id: json['_id']?.toString() ?? json['id']?.toString() ?? '',
       id: json['_id']?.toString() ?? '',
       name: json['name'] ?? '',
       email: json['email'] ?? '',
