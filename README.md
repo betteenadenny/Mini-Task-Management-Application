@@ -25,7 +25,12 @@ mini-task-management-app/
   - frontend/ # React + Tailwind frontend
   - mobile/ # Flutter mobile application
 
-  ---
+---
+
+## 🧩 Project Setup
+
+### 1️⃣ Clone the repository
+### 2️⃣ Navigate into the project folder
   
 ## ⚙️ Backend Setup (Node.js + Express)
 
@@ -35,17 +40,14 @@ mini-task-management-app/
    npm install
 ```
 ### 3️⃣ Create a .env file inside the backend directory
-```bash
-   touch env
-```
-4️⃣ Sample .env file
-```bash
+
+```Sample .env file
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/task_management
 JWT_SECRET=your_jwt_secret_key
 ```
 
-5️⃣ Run the backend server
+4️⃣ Run the backend server
 ```bash
 npm run dev
 ```
@@ -64,17 +66,18 @@ The API will run at:
   npm install
 ```
 
-3️⃣ Create a .env file inside the web folder
-```bash
-  touch .env
-```
-4️⃣ Sample .env file
-```env
+3️⃣ Create a .env file inside the frontend folder
+ ```Sample .env file
   REACT_APP_API_URL=http://localhost:5000/api
-5️⃣ Run the web app
+
+4️⃣ Run the web app
 ```bash
   npm start
  React frontend will run at:
 👉 http://localhost:3000
 
 ---
+
+## ⚙️ Flutter App Setup 
+
+### 1️⃣ Navigate to the mobile folder
