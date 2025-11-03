@@ -29,10 +29,22 @@ mini-task-management-app/
 
 ## 🧩 Project Setup
 
-### 1️⃣ Clone the repository
+### 1️⃣ Download the Zip file and extract it
 ### 2️⃣ Navigate into the project folder
   
 ## ⚙️ Backend Setup (Node.js + Express)
+
+## 🧩 Prerequisites
+
+Before setting up the project, make sure you have the following installed on your system:
+
+| Tool |
+|------|
+| Node.js (v18 or later) |
+| npm (v9 or later) |
+| Express |
+| MongoDB  |
+| Visual Studio Code (or any preferred IDE) |
 
 ### 1️⃣ Navigate to the backend folder
 ### 2️⃣ Install dependencies
@@ -60,6 +72,20 @@ The API will run at:
 
 ## ⚙️ Frontend Setup (React + TailwindCSS)
 
+## 🧩 Prerequisites
+
+Before setting up the project, make sure you have the following installed on your system:
+
+| Tool |
+|------|
+| Node.js (v18 or later) |
+| npm (v9 or later) |
+| Express |
+| React (via Create React App) |
+| MongoDB  |
+| Visual Studio Code (or any preferred IDE) |
+
+
 ### 1️⃣ Navigate to the frontend folder
 
 2️⃣ Install dependencies
@@ -77,6 +103,19 @@ The API will run at:
 ---
 
 ## ⚙️ Flutter App Setup 
+
+### 🧩 Prerequisites
+
+Before running the Flutter app, make sure you have the following installed:
+
+| Tool |
+|------|
+| Flutter SDK 
+| Dart SDK |
+|  VS Code |
+| Android SDK & Emulator |
+| Node.js + npm |
+
 
 ### 1️⃣ Navigate to the mobile folde
 ### 2️⃣ Get all dependencies
@@ -104,5 +143,25 @@ flutter run -d chrome
 
 ```For Android Emulator
 flutter run -d emulator-5554
-``` 
+```
+
+### Flutter App Demo 
+
+https://github.com/user-attachments/assets/8cf61c4f-ab00-44c9-8e7f-1737ae36bb22
+
+### React project Demo 
+
+https://github.com/user-attachments/assets/d9165371-cef8-4f16-b1b8-fd6eb263d225
+
+Filtering task and pagination 
+
+https://github.com/user-attachments/assets/973b05e9-3d71-4305-be69-afd0b3a3d5bf
+
+
+
+
+
+
+
+
 
