@@ -29,7 +29,7 @@ mini-task-management-app/
 
 ## 🧩 Project Setup
 
-### 1️⃣ Clone the repository
+### 1️⃣ Download the Zip file and extract it
 ### 2️⃣ Navigate into the project folder
   
 ## ⚙️ Backend Setup (Node.js + Express)
@@ -104,5 +104,33 @@ flutter run -d chrome
 
 ```For Android Emulator
 flutter run -d emulator-5554
-``` 
+```
+
+### Flutter App Demo ScreenShots
+
+Login Page
+<img width="624" height="990" alt="Login" src="https://github.com/user-attachments/assets/a326be91-2626-45d4-95f7-2796aa3a3fe8" />
+
+Signup page
+<img width="618" height="984" alt="Signup" src="https://github.com/user-attachments/assets/69db52d6-453e-49c6-8c4d-5c676d7fb45c" />
+
+Task Listing page
+<img width="624" height="990" alt="Task Listing" src="https://github.com/user-attachments/assets/629bfdf2-2da6-498f-b2ce-07b111d02e27" />
+
+Validation checking on adding a new task
+<img width="618" height="978" alt="Validation checking" src="https://github.com/user-attachments/assets/461d1928-0dc3-4846-9128-6b3bf2f647f3" />
+
+### react project Demo ScreenShots
+Login page
+<img width="1919" height="966" alt="Login (2)" src="https://github.com/user-attachments/assets/196c2c14-5c93-44ea-8ef1-9f01c6ea85c7" />
+
+Signup page
+<img width="1898" height="965" alt="Screenshot 2025-11-03 213634" src="https://github.com/user-attachments/assets/21de61a6-2759-4475-924d-c950e0d4f1bd" />
+
+Task Listing with pagination<img width="1919" height="896" alt="Screenshot 2025-11-03 213709" src="https://github.com/user-attachments/assets/8518df34-f0a8-4a63-8bee-cb65604b3845" />
+
+<img width="1910" height="967" alt="Screenshot 2025-11-03 213727" src="https://github.com/user-attachments/assets/991c932c-6259-4f2d-9489-a72d6c5ae9a8" />
+
+Validation checking
+<img width="1918" height="1020" alt="Screenshot 2025-11-03 214002" src="https://github.com/user-attachments/assets/98991261-cb5c-463a-952a-04394f8928ab" />
 
