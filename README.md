@@ -41,14 +41,15 @@ mini-task-management-app/
 ```
 ### 3️⃣ Create a .env file inside the backend directory
 
-```Sample .env file
+```
+#Sample .env file
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/task_management
 JWT_SECRET=your_jwt_secret_key
 ```
 
 4️⃣ Run the backend server
-```bash
+```
 npm run dev
 ```
 
@@ -62,13 +63,15 @@ The API will run at:
 ### 1️⃣ Navigate to the frontend folder
 
 2️⃣ Install dependencies
-```bash
+```
   npm install
 ```
 
 3️⃣ Create a .env file inside the frontend folder
- ```Sample .env file
+ ```
+#Sample .env file
   REACT_APP_API_URL=http://localhost:5000/api
+```
 
 4️⃣ Run the web app
 ```bash
