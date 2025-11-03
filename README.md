@@ -53,6 +53,8 @@ npm run dev
 The API will run at:
 👉 http://localhost:5000
 
+---
+
 ## ⚙️ Frontend Setup (React + TailwindCSS)
 
 ### 1️⃣ Navigate to the frontend folder
@@ -74,3 +76,5 @@ The API will run at:
   npm start
  React frontend will run at:
 👉 http://localhost:3000
+
+---
