@@ -73,6 +73,7 @@ The API will run at:
 4️⃣ Run the web app
 ```bash
   npm start
+```
  React frontend will run at:
 👉 http://localhost:3000
 
