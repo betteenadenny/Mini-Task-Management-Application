@@ -67,13 +67,7 @@ The API will run at:
   npm install
 ```
 
-3️⃣ Create a .env file inside the frontend folder
- ```
-#Sample .env file
-  REACT_APP_API_URL=http://localhost:5000/api
-```
-
-4️⃣ Run the web app
+3️⃣ Run the web app
 ```bash
   npm start
 ```
