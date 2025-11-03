@@ -36,7 +36,7 @@ mini-task-management-app/
 
 ### 1️⃣ Navigate to the backend folder
 ### 2️⃣ Install dependencies
-```bash
+```
    npm install
 ```
 ### 3️⃣ Create a .env file inside the backend directory
@@ -68,7 +68,7 @@ The API will run at:
 ```
 
 3️⃣ Run the web app
-```bash
+```
   npm start
 ```
  React frontend will run at:
@@ -78,4 +78,31 @@ The API will run at:
 
 ## ⚙️ Flutter App Setup 
 
-### 1️⃣ Navigate to the mobile folder
+### 1️⃣ Navigate to the mobile folde
+### 2️⃣ Get all dependencies
+```
+  flutter pub get
+```
+3️⃣ Configure API base URL
+
+Open the configuration file ( lib/config.dart) and set the backend URL:
+
+For web
+```
+ const String baseUrl = "http://localhost:5000/api";
+```
+For Android Emulator
+```
+const String baseUrl = "http://10.0.2.2:5000/api"; // Android Emulator
+```
+
+4️⃣ Run the Flutter app
+
+```# For Web
+flutter run -d chrome      
+```
+
+```For Android Emulator
+flutter run -d emulator-5554
+``` 
+
